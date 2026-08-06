@@ -32,6 +32,17 @@ export function Footer() {
         </div>
       </div>
       <p className="text-center text-xs pb-6 text-cream/40">© {year} Eulalee Beckford Designs</p>
+      <p className="text-center text-xs">
+        Made by{' '}
+        <a
+          href="https://www.novusnyc.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#F6B78D] hover:text-[#F6B78D] underline"
+        >
+          Made by Novus
+        </a>
+      </p>
     </footer>
   );
 }
