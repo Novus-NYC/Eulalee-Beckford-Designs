@@ -14,7 +14,7 @@ export function Footer() {
           Eulalee Beckford Designs
         </p>
         <nav className="flex gap-6 text-sm">
-          <a href="/#shop" className="hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-espresso rounded-sm">Shop</a>
+          <a href="/#collection" className="hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-espresso rounded-sm">Collection</a>
           <a href="/#custom" className="hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-espresso rounded-sm">Custom Orders</a>
           <a href="/pages/about" className="hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-espresso rounded-sm">Our Story</a>
           <a href="/pages/contact" className="hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-espresso rounded-sm">Visit</a>
@@ -33,7 +33,6 @@ export function Footer() {
       </div>
       <p className="text-center text-xs pb-6 text-cream/40">© {year} Eulalee Beckford Designs</p>
       <p className="text-center text-xs">
-        Made by{' '}
         <a
           href="https://www.novusnyc.org/"
           target="_blank"

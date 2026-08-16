@@ -1,4 +1,3 @@
-import { credentials } from "@/lib/site-data";
 import { RibbonTrim } from "./RibbonTrim";
 import { Reveal } from "./Reveal";
 
@@ -13,22 +12,17 @@ export function OurStory() {
           A Milliner&rsquo;s Craft, Rooted in Brooklyn
         </h2>
         <p className="mt-6 text-cream/75 leading-relaxed">
-          Eulalee Beckford Designs is a Brooklyn milliner, jewelry, and
-          fashion house based in DUMBO. Beyond the shop, Eulalee brings her
-          hats, kimonos, and jewelry to Brooklyn&rsquo;s cultural markets and
-          community celebrations.
+          Hi, my name is Eulalee Beckford. I am a milliner who resides in
+          Brooklyn, originally from the island of Jamaica, where my love for
+          hats began with my father&rsquo;s adoration of them as part of his
+          uniform as a calypso musician. Growing up in Jamaica, my hat
+          obsession continued until I moved to New York in 1999, the fashion
+          capital, where I couldn&rsquo;t pass a hat in a store without buying it.
+          Eventually I came upon the Fashion Institute of Technology&rsquo;s
+          millinery program, where I enrolled and started my journey to
+          become a milliner, making my own hats and helping others fashion
+          their perfect hat.
         </p>
-
-        <div className="mt-10 flex flex-wrap justify-center gap-3">
-          {credentials.map((c) => (
-            <span
-              key={c.detail}
-              className="text-xs tracking-wide text-cream border border-forest/50 bg-forest/20 rounded-full px-4 py-2"
-            >
-              <span className="font-medium text-gold">{c.label}</span> — {c.detail}
-            </span>
-          ))}
-        </div>
       </Reveal>
 
       <RibbonTrim className="w-full h-1.5" />

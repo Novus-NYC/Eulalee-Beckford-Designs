@@ -1,8 +1,7 @@
 "use client";
 
-import { collections, social } from "@/lib/site-data";
+import { collections } from "@/lib/site-data";
 import { useRevealOnScroll } from "@/lib/hooks/useRevealOnScroll";
-import { ExternalLinkIcon } from "./ExternalLinkIcon";
 
 function CollectionCard({
   item,
@@ -37,15 +36,6 @@ function CollectionCard({
           {item.priceRange}
         </p>
       )}
-      <a
-        href={social.shop}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-cream underline underline-offset-4 decoration-gold hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-espresso rounded-sm"
-      >
-        {item.ctaLabel}
-        <ExternalLinkIcon className="w-3.5 h-3.5" />
-      </a>
     </div>
   );
 }
@@ -54,7 +44,7 @@ const tilts = ["rotate-[-0.6deg]", "rotate-0", "rotate-[0.6deg]"];
 
 export function Collection() {
   return (
-    <section id="shop" className="bg-espresso">
+    <section id="collection" className="bg-espresso">
       <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
         <p className="text-xs font-medium tracking-widest2 uppercase text-gold mb-4">
           The Collection
@@ -63,9 +53,9 @@ export function Collection() {
           Fur Felt Hats, Kimonos &amp; Jewelry
         </h2>
         <p className="mt-4 text-cream/70 max-w-xl leading-relaxed">
-          Each hat is shaped from 100% fur felt in fedora and open-crown
-          silhouettes — ready to wear or made to order. The collection also
-          includes kimonos and jewelry.
+          A look at the pieces in the studio: custom hats made one at a time,
+          with kimonos and jewelry selected to complete the Caribbean
+          Bohemian styling.
         </p>
 
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -73,16 +63,6 @@ export function Collection() {
             <CollectionCard key={item.id} item={item} tilt={tilts[i % tilts.length]} />
           ))}
         </div>
-
-        <a
-          href={social.shop}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-14 inline-flex items-center gap-2 border border-cream/30 text-cream px-6 py-3 rounded-sm text-sm font-medium hover:bg-cream hover:text-espresso transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-espresso"
-        >
-          View Full Collection &amp; Checkout
-          <ExternalLinkIcon className="w-3.5 h-3.5" />
-        </a>
       </div>
     </section>
   );

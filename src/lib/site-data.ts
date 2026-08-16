@@ -1,19 +1,16 @@
-// All values below are sourced directly from Eulalee Beckford Designs' own
-// Instagram, Facebook, Shopify store, and public business listings.
-
 export const business = {
   name: "Eulalee Beckford Designs",
   tagline: "Fur Felt Hats, Handcrafted in Brooklyn",
   description:
-    "Milliner, jewelry, and fashion house based in DUMBO, Brooklyn — fur felt hats, kimonos, and jewelry, ready-to-wear or made to order.",
+    "Caribbean Bohemian millinery and fashion house in Park Slope, Brooklyn — custom fur felt hats made in-shop, plus kimonos and jewelry.",
 };
 
 export const contact = {
   address: {
-    line1: "145 Front Street, Shop 17",
-    line2: "Brooklyn, NY 11201",
-    crossStreets: "Between Pearl St & Jay St, DUMBO",
-    mapsQuery: "145 Front St Shop 17, Brooklyn, NY 11201",
+    line1: "325 Flatbush Ave",
+    line2: "Brooklyn, NY",
+    crossStreets: "Park Slope",
+    mapsQuery: "325 Flatbush Ave, Park Slope, Brooklyn, NY",
   },
   phone: "(347) 915-9883",
   phoneHref: "tel:+13479159883",
@@ -36,7 +33,6 @@ export const social = {
   instagramHandle: "@eulalee_beckford_designs",
   facebook: "https://www.facebook.com/EulaleeBeckfordDesigns/",
   youtube: "https://www.youtube.com/channel/UCn7S-ighakSmEA2rRyMOj3w",
-  shop: "https://eulaleebeckforddesigns.com/",
 };
 
 export const collections = [
@@ -44,23 +40,20 @@ export const collections = [
     id: "hats",
     title: "Fur Felt Hats",
     description:
-      "Fedora and open-crown styles, shaped from 100% fur felt. Ready-to-wear or made to order.",
-    priceRange: "$150 – $350",
-    ctaLabel: "Shop Hats",
+      "Fedora and open-crown styles shaped from 100% fur felt, custom made in-shop rather than mass produced.",
+    priceRange: "$250 – $450",
   },
   {
     id: "kimonos",
     title: "Kimonos",
     description: "Statement layers designed to pair with the hat collection.",
     priceRange: null,
-    ctaLabel: "Shop Kimonos",
   },
   {
     id: "jewelry",
     title: "Jewelry",
     description: "Fashion jewelry designed to complete the look.",
     priceRange: null,
-    ctaLabel: "Shop Jewelry",
   },
 ] as const;
 
@@ -68,8 +61,4 @@ export const customOrderSteps = [
   { title: "Share your vision", description: "Silhouette, color, trim, and occasion." },
   { title: "Get fitted", description: "Crown height, brim width, and size." },
   { title: "Handcrafted to order", description: "Your hat is hand-blocked in fur felt to your fit." },
-];
-
-export const credentials = [
-  { label: "Featured Vendor", detail: "Kwanzaa Unity Marketplace, Brooklyn" },
 ];

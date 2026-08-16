@@ -4,7 +4,7 @@ import { useState } from "react";
 import { contact } from "@/lib/site-data";
 
 const links = [
-  { href: "/#shop", label: "Shop" },
+  { href: "/#collection", label: "Collection" },
   { href: "/#custom", label: "Custom Orders" },
   { href: "/pages/about", label: "Our Story" },
   { href: "/pages/contact", label: "Visit" },

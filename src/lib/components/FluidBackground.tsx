@@ -1,8 +1,7 @@
 "use client";
 
 /**
- * Ambient drifting blob background — the Jamaican heritage triad
- * (forest, gold, brick) as soft blurred shapes, slowly moving.
+ * Ambient drifting background in muted boutique green, sage, and blue.
  * Absolutely positioned; place inside a `relative` + `overflow-hidden`
  * parent, behind the actual section content (z-0, content at z-10+).
  */
@@ -35,7 +34,7 @@ export function FluidBackground() {
           height: 340,
           right: -80,
           top: 10,
-          background: "#B8863E",
+          background: "#E3E8DE",
           animation: "driftB 11s ease-in-out infinite",
         }}
       />
@@ -46,7 +45,7 @@ export function FluidBackground() {
           height: 320,
           left: "35%",
           bottom: -120,
-          background: "#6B2E28",
+          background: "#7D91A6",
           animation: "driftC 10s ease-in-out infinite",
         }}
       />

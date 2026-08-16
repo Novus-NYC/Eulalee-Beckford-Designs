@@ -9,8 +9,8 @@ export function Visit() {
     <section id="visit" className="bg-espresso">
       <div className="mx-auto max-w-6xl px-6 py-20 md:py-28 grid md:grid-cols-2 gap-14">
         <Reveal>
-          <p className="text-xs font-medium tracking-widest2 uppercase text-gold mb-4">Visit the Shop</p>
-          <h2 className="font-display font-semibold text-3xl sm:text-4xl text-cream">145 Front Street, DUMBO</h2>
+          <p className="text-xs font-medium tracking-widest2 uppercase text-gold mb-4">Visit the Studio</p>
+          <h2 className="font-display font-semibold text-3xl sm:text-4xl text-cream">325 Flatbush Ave, Park Slope</h2>
 
           <div className="mt-6 space-y-1 text-cream/80">
             <p>{contact.address.line1}</p>

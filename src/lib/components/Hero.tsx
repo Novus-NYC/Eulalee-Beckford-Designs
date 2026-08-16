@@ -1,9 +1,6 @@
 import { HatMark } from "./HatMark";
-import { ExternalLinkIcon } from "./ExternalLinkIcon";
-import { RibbonBadge } from "./RibbonBadge";
 import { FluidBackground } from "./FluidBackground";
 import { Reveal } from "./Reveal";
-import { social } from "@/lib/site-data";
 
 export function Hero() {
   return (
@@ -21,27 +18,18 @@ export function Hero() {
             <span className="italic font-medium text-gold">Worn</span> With Pride.
           </h1>
           <p className="mt-6 text-base sm:text-lg text-cream/75 max-w-md leading-relaxed">
-            Fur felt hats hand-blocked in DUMBO, Brooklyn — rooted in
-            Jamaican heritage and a longstanding presence in the borough&rsquo;s
-            Black-owned business and cultural community, from the shop floor
-            to Brooklyn&rsquo;s Kwanzaa celebrations.
+            Fur felt hats handcrafted in-shop at 325 Flatbush Ave in Park
+            Slope, Brooklyn. Each piece is custom made rather than mass
+            produced, shaped through a Caribbean Bohemian lens rooted in
+            Jamaican heritage and Brooklyn craft.
           </p>
-
-          <RibbonBadge
-            title="Featured Vendor"
-            subtitle="Kwanzaa Unity Marketplace, Brooklyn"
-            className="mt-6 w-56 sm:w-64 drop-shadow-[0_6px_16px_rgba(0,0,0,0.4)]"
-          />
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href={social.shop}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#collection"
               className="bg-gold text-espresso px-6 py-3 rounded-sm text-sm font-medium hover:bg-cream transition-colors inline-flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cream focus-visible:ring-offset-2 focus-visible:ring-offset-espresso"
             >
-              Shop the Collection
-              <ExternalLinkIcon className="w-3.5 h-3.5" />
+              View the Collection
             </a>
             <a
               href="#custom"

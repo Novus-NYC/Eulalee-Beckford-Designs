@@ -8,13 +8,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: "#F2EBDA",
-        espresso: "#1E1712",
-        surface: "#2A2119",
-        gold: "#B8863E",
-        forest: "#33472E",
-        brick: "#6B2E28",
-        ink: "#241C15",
+        cream: "#F7F3EC",
+        espresso: "#3E4737",
+        surface: "#E3E8DE",
+        gold: "#7D8F7B",
+        forest: "#556B4E",
+        brick: "#7D91A6",
+        brass: "#A6A891",
+        ink: "#222825",
       },
       fontFamily: {
         display: ["var(--font-display)", "serif"],

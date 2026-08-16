@@ -1,4 +1,4 @@
-const facts = ["Ready-to-Wear + Custom", "$150 – $350", "DUMBO, Brooklyn", "Milliner • Jewelry • Fashion"];
+const facts = ["Custom, In-Shop Hats", "$250 – $450", "325 Flatbush Ave, Park Slope", "Caribbean Bohemian"];
 
 export function TrustBar() {
   return (

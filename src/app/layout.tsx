@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Eulalee Beckford Designs | Brooklyn Millinery",
   description:
-    "Fur felt hats handcrafted in Brooklyn — fedoras and open-crown styles, ready-to-wear or made to order. Milliner, jewelry & fashion in DUMBO.",
+    "Custom fur felt hats handcrafted in-shop in Park Slope, Brooklyn. Caribbean Bohemian millinery, jewelry, and fashion by Eulalee Beckford Designs.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
