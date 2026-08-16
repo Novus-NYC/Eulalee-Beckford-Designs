@@ -31,13 +31,13 @@ export function Footer() {
           </a>
         </div>
       </div>
-      <p className="text-center text-xs pb-6 text-cream/40">© {year} Eulalee Beckford Designs</p>
-      <p className="text-center text-xs">
+      <p className="text-center text-xs pb-3 text-cream/40">© {year} Eulalee Beckford Designs</p>
+      <p className="text-center text-xs pb-8">
         <a
           href="https://www.novusnyc.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#F6B78D] hover:text-[#F6B78D] underline"
+          className="text-cream/55 hover:text-cream"
         >
           Made by Novus
         </a>
